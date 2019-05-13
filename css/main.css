@@ -16,3 +16,9 @@ body {
   ul{
       list-style: none;
   }
+
+  #hero-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
