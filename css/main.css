@@ -1,0 +1,18 @@
+body {
+    font-family: Palatino;
+    background-color: aquamarine;
+    text-align: center;
+  }
+  
+  li{
+    background-color: gold;
+    border: 5px;
+    border-color: royalblue;
+    margin: 20px;
+    padding:10px;
+    text-align: center;
+  }
+
+  ul{
+      list-style: none;
+  }
