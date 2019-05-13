@@ -6,6 +6,36 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1 id="heading">Create Your Hero</h1>
+
+    <form id="new-item-form">
+        <div id="form-wrapper">
+          <div class="form-item">
+            <label for="name" class="primary">Name</label>
+            <input type="text" id="name" required/>
+          </div>
+  
+          <div class="form-item">
+            <label for="nationality" class="primary">Nationality</label>
+            <input type="text" id="nationality" required/>
+          </div>
+  
+          <div class="form-item">
+            <label for="category" class="primary">Role</label>
+            <select id="category">
+              <option value="" disabled selected></option>
+              <option value="Tank">Tank</option>
+              <option value="Support">Support</option>
+              <option value="Dps">Dps</option>
+            </select>
+          </div>
+        </div>
+        <input type="submit" value="save"/>
+      </form>
+  
+      <h1>Comp List</h1>
+      <ul id="comp-list">
+  
+      </ul>
 </body>
 </html>
